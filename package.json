@@ -1,0 +1,16 @@
+{
+  "name": "air-cnc-server",
+  "version": "1.0.0",
+  "description": "This is the server of Air-CNC project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Shrikanta Mazumder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8"
+  }
+}
